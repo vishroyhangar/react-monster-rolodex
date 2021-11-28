@@ -10,12 +10,10 @@ class App extends React.Component {
       monsters: [],
       search: ''
     }
-
-    // needed to bind with searchChange function
-    this.searchChange = this.searchChange.bind(this);
   }
 
-  searchChange(e) {
+
+  searchChange = (e) => {
     this.setState({search: e.target.value});
   }
 
