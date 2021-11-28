@@ -4,6 +4,14 @@
     input {
         border: 1px solid cyan;
         padding: 1rem 0.5rem;
-        width: 25%;
+        width: 100%;
+
+        @media screen and (min-width: 768px) {
+            width: 50%;
+        }
+
+        @media screen and (min-width: 1366px) {
+            width: 25%;
+        }
     }
 }
