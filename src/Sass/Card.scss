@@ -1,4 +1,26 @@
-
 .card {
-    background-color: red;
+    background-color: cyan;
+    border-radius: 5px;
+    width: initial;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+}
+
+
+.card__image {
+    img {
+        width: 9rem;
+    }
+}
+
+
+.card__description {
+    h3 {
+        margin-bottom: 0;
+    }
+
+    p {
+        margin-top: 0;
+    }
 }
